@@ -9,7 +9,7 @@
     "deploy": "npx netlify deploy --prod"
   },
   "dependencies": {
-    "@netlify/neon": "^0.10.1",
+    "@netlify/neon": "^0.10.0",
     "twilio": "^5.3.5",
     "node-fetch": "^3.3.2"
   },
