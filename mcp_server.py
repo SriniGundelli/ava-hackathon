@@ -6,7 +6,6 @@ Uses only Python standard library modules due to WebContainer limitations
 
 import json
 import sys
-import asyncio
 import logging
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
