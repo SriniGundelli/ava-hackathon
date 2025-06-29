@@ -4,9 +4,9 @@
   "description": "AI talent assistant that turns candidate questions into instant answers and auto books 15-min screens",
   "type": "module",
   "scripts": {
-    "dev": "netlify dev",
-    "build": "netlify build",
-    "deploy": "netlify deploy --prod"
+    "dev": "npx netlify dev",
+    "build": "npx netlify build",
+    "deploy": "npx netlify deploy --prod"
   },
   "dependencies": {
     "@netlify/neon": "^0.10.1",
@@ -14,7 +14,6 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "@netlify/cli": "^17.36.4",
     "@types/node": "^22.10.2",
     "typescript": "^5.7.2"
   }
